@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>SURVEY FORM</title>
+</head>
+<body>
+    <div class="container-fluid survey text-center">
+        <h1 class="pb-3">Survey Form</h1>
+        <div class="section container">
+            <p class="pt-4">Let us know how we can improve freeCodeCamp</p>
+            <div class="input-group row pt-2">
+                <div class="col-md-6 col-sm-10 text-right">
+                    <label for="name">Name: </label>
+                </div>
+                <div class="col-md-4 col-sm-10">
+                    <input type="text" name="name" class="form-control" placeholder="Enter your name" required >
+                </div>
+            </div>
+            <div class="input-group row pt-2">
+                <div class="col-md-6 col-sm-10 text-right">
+                    <label for="email">Email: </label>
+                </div>
+                <div class="col-md-4 col-sm-10">
+                    <input type="email" name="email" class="form-control" placeholder="Enter your email" required >
+                </div>
+            </div>
+            <div class="input-group row pt-2">
+                <div class="col-md-6 col-sm-10 text-right">
+                    <label for="age">Age: </label>
+                </div>
+                <div class="col-md-4 col-sm-10">
+                    <select class="form-control" name="age-range" id="age-range">
+                        <option value="8-15">8-15</option>
+                        <option value="16-20">16-20</option>
+                        <option value="21-25">21-25</option>
+                        <option value="26-30">26-30</option>
+                        <option value="31-35">31-35</option>
+                        <option value="36-40">36-40</option>
+                        <option value="41-50">41-50</option>
+                        <option value="51-60">51-60</option>
+                        <option value="61-70">61-70</option>
+                        <option value="70-Above">70-Above</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group row pt-2">
+                <div class="col-md-6 col-sm-7 text-right">
+                    <label for="role">Which option best describes your current role? </label>
+                </div>
+                <div class="col-md-1 col-sm-7">
+                    <select name="role" id="role" class="px-4">
+                        <option value="student">Student</option>
+                        <option value="junior">Junior</option>
+                        <option value="mid-level">Mid-Level</option>
+                        <option value="senior">Senior</option>
+                        <option value="principal">Principal</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group row pt-2">
+                <div class="col-md-6 col-sm-8 text-right">
+                    <label for="recommendation">How likely is that you would recommend freeCodeCamp to a friend? </label>
+                </div>
+                <div class="col-md-2 col-sm-8">
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="Radios" value="option1">
+                        <label for="Radios1" class="form-check-label"> Definitely</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="Radios" value="option2">
+                        <label for="Radios2" class="form-check-label"> Maybe</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="Radios" value="option3">
+                        <label for="Radios3" class="form-check-label"> Never</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group row pt-4">
+                <div class="col-md-6 col-sm-7 text-right">
+                    <label for="role">What do you like most in freeCodeCamp? </label>
+                </div>
+                <div class="col-md-1 col-sm-7">
+                    <select name="role" id="role">
+                        <option value="microservices">APIs and Microservices</option>
+                        <option value="data-visualization">Data Visualization</option>
+                        <option value="frontend-library">Front End Librariesd</option>
+                        <option value="info-security-quality">Information Security and Quality Assurance</option>
+                        <option value="js-algo-data-structures">JavaScript Algorithms and Data Structures</option>
+                        <option value="web-design">Responsive Web Design</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group row pt-2 pb-3">
+                <div class="col-md-6 col-sm-10 text-right">
+                    <label for="improvement">Things that should be improved in the future <br> (Check all that apply): </label>
+                </div>
+                <div class="col-md-4 col-sm-10 checker">
+                    <div class="form-checker">
+                        <input type="checkbox" class="form-check-input" id="checkBox1">
+                        <label for="checkBox1" class="form-check-label">Front-end Projects</label>
+                    </div>
+                    <div class="form-checker">
+                        <input type="checkbox" class="form-check-input" id="checkBox2">
+                        <label for="checkBox2" class="form-check-label">Back-end Projects</label>
+                    </div>
+                    <div class="form-checker">
+                        <input type="checkbox" class="form-check-input" id="checkBox3">
+                        <label for="checkBox3" class="form-check-label">Data Visualization</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-right">
+            Designed by <a href="https://www.twitter.com/awoyemibiodun" target="_blank">GboTemi</a>. &copy 2020 All rights reserved.
+        </footer>
+    </div>
+    
+</body>
+</html>

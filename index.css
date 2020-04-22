@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.survey {
+    background-color: #0099e6;
+}
+
+.section {
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.form-check {
+    margin-right: 90px;
+}
+
+.form-checker {
+    margin-right: 150px;
+}
+
+footer {
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
